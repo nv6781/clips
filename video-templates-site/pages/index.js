@@ -111,13 +111,13 @@ export default function Home() {
                 <p className="text-gray-400">Compress videos online for free</p>
               </div>
               
-              <div className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors cursor-pointer">
+              <Link href="/tools/video-clipper" className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors cursor-pointer block">
                 <div className="w-12 h-12 bg-blue-600 rounded-lg mb-4 flex items-center justify-center text-2xl">
                   ✂️
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Video Trimmer</h3>
+                <h3 className="text-xl font-semibold mb-2">Video Clipper</h3>
                 <p className="text-gray-400">Trim and cut your videos</p>
-              </div>
+              </Link>
             </div>
           </section>
 
