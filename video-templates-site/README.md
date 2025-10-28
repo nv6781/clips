@@ -5,7 +5,7 @@ A modern video template creation platform built with Next.js, inspired by Clippi
 ## 🚀 Features
 
 - **Clean Homepage** with hero section and template gallery
-- **Multiple Video Templates** (Top 5, Reddit Stories, Comparisons, etc.).
+- **Multiple Video Templates** (Top 5, Reddit Stories, Comparisons, etc.)
 - **Server-Side Rendering** with Next.js
 - **Responsive Design** with Tailwind CSS
 - **API Routes** for subscription management
