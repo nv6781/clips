@@ -95,6 +95,14 @@ export default function Home() {
               <span className="mr-2">⚡</span> Quick Tools
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <Link href="/tools/scary-story-generator" className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors cursor-pointer block border-2 border-red-900 hover:border-red-600">
+                <div className="w-12 h-12 bg-red-600 rounded-lg mb-4 flex items-center justify-center text-2xl">
+                  👻
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Scary Story Generator</h3>
+                <p className="text-gray-400">Create AI horror stories with voiceovers</p>
+              </Link>
+              
               <div className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-purple-600 rounded-lg mb-4 flex items-center justify-center text-2xl">
                   🎨
